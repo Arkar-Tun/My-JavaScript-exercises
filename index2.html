@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+    <header>
+
+        <i class="fa-solid fa-gamepad"></i>
+        <h1>Welcome To Game</h1>
+
+    </header>
+    <div class="content">
+        <div class="card-section">
+            <div class="rock card">
+                <i class="fa-regular fa-hand-back-fist"></i>
+                <h2>Rock</h2>
+            </div>
+            <div class="paper card">
+                <i class="fa-regular fa-hand"></i>
+                <h2>Paper</h2>
+            </div>
+            <div class="Scissor card">
+                <i class="fa-regular fa-hand-scissors"></i>
+                <h2>Scissor</h2>
+            </div>
+        </div>
+        <div class="result-container">
+            <h2 id="status-text">Choose your move!</h2>
+            <p id="winner-msg"></p>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © ARKAR TUN 2024</p>
+    </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
