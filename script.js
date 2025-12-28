@@ -21,7 +21,7 @@ function playRound(playerMove, computerMove) {
   ) {
     return "You win! 🎉 ";
   } else {
-    return "You lose! 💀 )";
+    return "You lose! 💀 ";
   }
 }
 
