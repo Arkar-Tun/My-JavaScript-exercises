@@ -1,5 +1,5 @@
 // 1. Select necessary DOM elements
-const cards = document.querySelectorAll(".card"); // Rock, Paper, Scissor ခလုတ်အားလုံး
+const cards = document.querySelectorAll(".card");
 const statusText = document.querySelector("#status-text");
 const winnerMsg = document.querySelector("#winner-msg");
 
